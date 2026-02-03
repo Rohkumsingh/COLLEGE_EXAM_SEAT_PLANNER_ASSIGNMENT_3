@@ -8,9 +8,9 @@ The system ensures the **minimum number of classrooms** are used while **priorit
 ## 🚀 Live Demo
 
 - **Live URL:** https://your-vercel-link.vercel.app  
-- **GitHub Repository:** https://github.com/your-username/exam-seat-planner  
+- **GitHub Repository:** https://github.com/Rohkumsingh/COLLEGE_EXAM_SEAT_PLANNER_ASSIGNMENT_3.git  
 
-> Replace the links above before final submission.
+
 
 ---
 
