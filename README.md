@@ -70,10 +70,3 @@ src/
  ├── App.js
  ├── index.js
  └── App.css
-
-
-👨‍💻 Author
-
-Rohit Kumar
-B.Tech CSE (AIML)
-ABES Engineering College
