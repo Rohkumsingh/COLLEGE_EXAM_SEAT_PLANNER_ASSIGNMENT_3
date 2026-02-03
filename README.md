@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+📘 College Exam Seat Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based application that allocates classrooms for college examinations using an optimized greedy approach.
+The system ensures minimum number of classrooms are used while prioritizing lower-floor rooms for easy accessibility.
 
-## Available Scripts
+🚀 Live Demo
 
-In the project directory, you can run:
+🔗 Live URL: https://your-vercel-link.vercel.app
 
-### `npm start`
+🔗 GitHub Repository: https://github.com/your-username/exam-seat-planner
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+(Replace links before submission)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🎯 Objective
 
-### `npm test`
+Allocate exam seats efficiently
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Use the minimum number of classrooms
 
-### `npm run build`
+Prefer lower floor classrooms first
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Provide a clean, interactive, and user-friendly interface
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✨ Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+➕ Add classroom details (Room ID, Capacity, Floor, Near Washroom)
 
-### `npm run eject`
+📋 View all classrooms in tabular format
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🧮 Allocate exam seats using greedy logic
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚦 Real-time validation & error handling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🎨 Modern UI with animations
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🔄 Loading spinner during allocation
 
-## Learn More
+🟢 Highlight classrooms near washrooms
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📱 Fully responsive design
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🧠 Allocation Logic (Greedy Approach)
 
-### Code Splitting
+Sort classrooms by floor number (ascending)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Select classrooms one by one
 
-### Analyzing the Bundle Size
+Deduct capacity from total students
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Stop when all students are allocated
 
-### Making a Progressive Web App
+If seats are insufficient, show error message
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This ensures:
 
-### Advanced Configuration
+Minimum number of classrooms
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Lower floors are always preferred
 
-### Deployment
+🏗️ Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Frontend: React JS
 
-### `npm run build` fails to minify
+Styling: CSS (Animations + Responsive UI)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deployment: Vercel
+
+Version Control: Git & GitHub
+
+📂 Project Structure
+src/
+ ├── components/
+ │    ├── AddClassroom.js
+ │    ├── ClassroomList.js
+ │    ├── AllocateExam.js
+ │    └── ResultPanel.js
+ ├── App.js
+ ├── index.js
+ └── App.css
+
+⚠️ Error Handling
+
+Prevents invalid input (negative or empty values)
+
+Shows meaningful messages for insufficient seats
+
+Disables actions during allocation to avoid duplication
+
+🎥 Demo Video
+
+📹 2-minute demo video includes:
+
+Adding classrooms
+
+Viewing classroom list
+
+Allocating exam seats
+
+Displaying allocation result
+
+📦 Deployment
+
+The project is deployed on Vercel and accessible via a public URL.
+All mandatory submission requirements are fulfilled.
+
+✅ Submission Checklist
+
+ GitHub Repository
+
+ Live Deployment URL
+
+ README.md
+
+ Minimum 3 Git commits
+
+ Demo Video
+
+👨‍💻 Author
+
+Rohit Kumar
+B.Tech CSE (AIML)
+ABES Engineering College
