@@ -4,7 +4,7 @@ function ResultPanel({ result }) {
     if (!result) return null;
 
     return (
-        <div className="card">
+        <div className={`card ${result.success ? "result-success" : ""}`}>
             <h2>Allocation Result</h2>
 
             {!result.success ? (
